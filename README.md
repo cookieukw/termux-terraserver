@@ -7,7 +7,7 @@ Como instalar
 
 ## Básico - Basic
 
-| Install git - Instalar git
+- Install git - Instalar git
 ```bash
 apt upgrade -y && apt update
 ```
@@ -16,12 +16,12 @@ apt upgrade -y && apt update
 pkg install git
 ```
 
-| Clonar repositorio - Clone repository
+- Clonar repositorio - Clone repository
 ```bash
 git clone https://github.com/krootca/termux-terraserver
 ```
 
-| Instalar init.sh - Install init.sh
+- Instalar install.sh - Install install.sh
 ```bash
 bash init.sh
 ```
@@ -54,15 +54,11 @@ apt upgrade -y && apt update
 ```bash
 pkg install unzip
 ```
+
 ```bash
-curl -O https://terraria.org/api/download/pc-dedicated-server/terraria-server-1432.zip
+curl -0 https://terraria.org/api/download/pc-dedicated-server/terraria-server-1449.zip
 ```
-```bash
-unzip terraria-server-1432.zip
-```
-```bash
-rm terraria-server-1432.zip
-```
+
 ```bash
 chmod +x 1432/Linux/TerrariaS*
 ```
@@ -92,16 +88,16 @@ pkg install mono
 
 | delete files
 ```
-rm 1432/Linux/System*
-rm 1432/Linux/Mono*
-rm 1432/Linux/monoconfig
-rm 1432/Linux/mscorelib.dll
+rm 1449/Linux/System*
+rm 1449/Linux/Mono*
+rm 1449/Linux/monoconfig
+rm 1449/Linux/mscorelib.dll
 ```
 ## Run Terraria Server in Termux
 
 | So, that's be right, now you can run the server
 ```bash
-cd 1432/Linux
+cd 1449/Linux
 ```
 
 ## Select Config File
