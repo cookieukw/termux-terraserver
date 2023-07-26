@@ -1,6 +1,17 @@
 #!/bin/bash
 apt upgrade -y && apt update
-pkg install unzip
+if ! command -v mono &> /dev/null; then
+    echo "Instaling mono..."
+    apt update
+    pkg install mono
+fi
+
+if ! command -v unzip &> /dev/null; then
+    echo "Installing unzip..."
+    apt update
+    pkg install unzip
+fi
+
 curl -O https://terraria.org/api/download/pc-dedicated-server/terraria-server-1449.zip
 unzip terraria-server-1449.zip
 rm terraria-server-1449.zip
