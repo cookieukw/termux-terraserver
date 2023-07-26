@@ -18,7 +18,7 @@ pkg install git
 
 - Clonar repositorio - Clone repository
 ```bash
-git clone https://github.com/krootca/termux-terraserver
+git clone https://github.com/cookieukw/termux-terraserver
 ```
 
 - Instalar install.sh - Install install.sh
@@ -60,7 +60,7 @@ curl -0 https://terraria.org/api/download/pc-dedicated-server/terraria-server-14
 ```
 
 ```bash
-chmod +x 1432/Linux/TerrariaS*
+chmod +x 1449/Linux/TerrariaS*
 ```
 
 ### Install mono | Warning: after that libssl.so.1.1 not found (reinstall termux for fix this)
