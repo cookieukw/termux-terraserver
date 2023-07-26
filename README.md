@@ -16,11 +16,15 @@ pkg install git
 git clone https://github.com/cookieukw/termux-terraserver
 ```
 
+- Rename folder and go
+```bash
+mv termux-terraserver terra && cd terra
+```
+
 - Install install.sh
 ```bash
 ./install.sh
 ```
-
 
 - Now run the server
 ```bash
