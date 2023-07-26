@@ -1,4 +1,4 @@
-#Use Termux for Terraria Server
+# Use Termux for Terraria Server
 
 ## Basic
 
