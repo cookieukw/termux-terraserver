@@ -23,7 +23,7 @@ git clone https://github.com/cookieukw/termux-terraserver
 
 - Instalar install.sh - Install install.sh
 ```bash
-bash init.sh
+bash install.sh
 ```
 | Instalar mono, para esto cambia el repositorio a Grimle - Install mono, for this change the repository for Grimle
 ```bash
@@ -44,7 +44,7 @@ pkg install mono
 | Ahora corra el servidor - Now run the server
 
 ```bash
-mono --server -O=all ./1432/Linux/TerrariaServer.exe
+mono --server -O=all ./1449/Linux/TerrariaServer.exe
 ```
 
 ## Avanzado - Advance
@@ -100,9 +100,9 @@ rm 1449/Linux/mscorelib.dll
 cd 1449/Linux
 ```
 
-## Select Config File
+## Run the run.sh file to run the server
 ```bash
-mono --server -O=all ./TerrariaServer.exe
+bash run.sh
 ```
 | You can create new world, delete world or chose world. Etc... But if you don't want select the world, or create a new world, set seed, size, etc... You can use a config file.
 
