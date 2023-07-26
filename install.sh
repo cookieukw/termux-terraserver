@@ -5,7 +5,8 @@ if ! command -v mono &> /dev/null; then
     apt update
     pkg install mono
 fi
-
+termux-change-repo
+apt upgrade -y && apt update
 if ! command -v unzip &> /dev/null; then
     echo "Installing unzip..."
     apt update
